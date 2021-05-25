@@ -2,96 +2,121 @@
 <html><head>
 <title>PS3 4.82 to 4.87 PLAYGROUND by DEMOLEDOR.Ltu</title>
 <style>
-html, body {
+html,body {
 background-image: url('img.jpg');
-background-attachment: fixed;
-background-size:100%;
-background-repeat:no-repeat;
+background-size: 100%;
+background-repeat: no-repeat;
 background-color: #24272b;
-color:white;
-margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
+color: white;
 overflow: hidden;
+margin: 0px;
 }
 h1 {
 text-shadow: 0.1em 0.1em 0.2em black;
-font-size:25px;
-text-align:center;
-color:white;
+font-size: 25px;
+text-align: center;
+color: white;
+}
+#main-section {
+text-align: center;
+display: block;
+}
+#han-section {
+text-align: center;
+display: none;
+}
+#han-flasher-section {
+text-align: center;
+display: none;
 }
 .btn {
-width: 262px;
+background-color: #003263;
+color: white;
+width: 260px;
 height: 49px;
-padding-top: 10px;
-padding-bottom: 13px;
+padding-bottom: 5px;
 text-align: center;
-text-decoration: none;
-display: inline-block;
 font-size: 20px;
 margin-top: 15px;
-margin-bottom: 5px;
+margin-bottom: 15px;
 margin-left: 15px;
-margin-right: 5px;
+margin-right: 15px;
 border-bottom-width: 0px;
 border-right-width: 0px;
 border-top-width: 0px;
 border-left-width: 0px;
--webkit-transition-duration: 0.4s;
 transition-duration: 0.4s;
 cursor: pointer;
-}
-.btn-main {
-background-color: #003263;
-color: white;
 border-radius: 8px;
 }
-.btn-main:hover {
+.btn:hover {
 background-color: #0058b1;
-color: white;
-    border-radius: 8px;
 }
 .btn-beta {
 background-color: #b10000;
-color: white;
-border-radius: 8px;
 }
 .btn-beta:hover {
 background-color: #f31414;
-color: white;
-border-radius: 8px;
 }
 </style>
 </head>
-<h1 id=msgs>PS3 4.82 to 4.87 PLAYGROUND by DEMOLEDOR.Ltu</h1>
+<div id="main-section">
+<h1 id=msgs>PS3 4.82 to 4.87 PLAYGROUND by DEMOLEDOR.Ltu (Thanks to GamerHack)</h1>
 <hr>
 <br>
-<h1 style="font-size:20px;text-align:center;color:yellow;">Elija el Tipo de Hack</h1>
-<div style="text-align:center">
-<button class="btn btn-beta" onclick=load_HAN()> INSTALAR HAN-HEN </button>
+<h1 style="font-size:20px;color:yellow;">Elija el Tipo de Hack</h1>
+<a href="javascript:load_HAN()"><button class="btn btn-beta"> INSTALAR HAN-HEN </button></a>
 <br>
-<h1 style="font-size:20px;text-align:center;">DOWNGRADE PS3</h1>
-<div style="text-align:center">
-<button class="btn btn-main" onclick=load_NOR()> NOR/NAND </button>
+<h1 style="font-size:20px;">DOWNGRADE PS3</h1>
+<a href="javascript:load_NOR()"><button class="btn"> NOR/NAND </button></a>
 <br>
 <hr style="margin-top: 144px;">
-<h1 style="font-size:25px;text-align:center;margin-top: 14px;color:yellow;">Muchísimos Juegos a tu Alcance - Blas -Las tunas</h1>
+<h1 style="margin-top: 14px;color:yellow;">Muchísimos Juegos a tu Alcance - Blas -Las tunas</h1>
+</div>
+<div id="han-section">
+<h1 id=msgs>PS3 4.82 to 4.87 PLAYGROUND by DEMOLEDOR.Ltu (Thanks to GamerHack)</h1>
+<hr>
 <br>
+<h1 style="font-size:20px;color:yellow;">Elija el Tipo de Hack</h1>
+<a href="han_installer.html"><button class="btn btn-beta"> Han_4.81_4.86 </button></a>
+<a href="han_installer_4.87.html"><button class="btn btn-beta"> Han_4.87 </button></a>
+<br>
+<h1 style="font-size:20px;">(Han Flash Mount Blind & Read Write 4.82 a 4.87)</h1>
+<a href="han_flash_mount_rewrite.html"><button class="btn btn-main"> HF_Mnt_R/Write </button></a>
+<a href="han_flash_mount_blind.html"><button class="btn btn-main"> HF_Mnt_Blind </button></a>
+<br>
+<h1 style="font-size:20px;">El PS3 debe estar entre la vers. 4.81, 4.82, 4.84_HFW, 4.85_HFW 4.86_HFW 4.87_HFW</h1>
+<h1 style="font-size:20px;">COMPATIBLE CON(SLIM):25XX NOR (3.60 y superior)  3XXX NOR / COMPATIBLE (SUPERSLIM):4XXXA EMMC / 4XXXB NOR / 4XXXC NOR.</h1>
+<hr style="margin-top: 71px;">
+</div>
+<div id="han-flasher-section">
+<h1 id=msgs>PS3 4.82 to 4.85 PLAYGROUND by DEMOLEDOR.Ltu (Thanks to GamerHack)</h1>
+<hr>
+<br>
+<h1 style="font-size:20px;color:yellow;">Elija el Tipo de Hack</h1>
+<a href="index_nor_dumper_482+.html"><button class="btn btn-beta"> NorDump_4.82+ </button></a>
+<a href="nor-482.html"><button class="btn btn-beta"> NorWrite_4.82 </button></a>
+<a href="nor-484.html"><button class="btn btn-beta"> NorWrite_4.84 </button></a>
+<a href="index_nor_writer_485.html"><button class="btn btn-beta"> NorWrite_4.85 </button></a>
+<br>
+<h1 style="font-size:20px;">(El fichero HEX acorde a cada Firmaware copielo al pendrive y coloquelo en el USB_0)</h1>
+<a href="index_nand_4.82+.html"><button class="btn btn-main"> NANDump_4.82+ </button></a>
+<a href="nand-482.html"><button class="btn btn-main"> NANDWrite_4.82 </button></a>
+<a href="index_nand_writer_4.84.html"><button class="btn btn-main"> NANDWrite_4.84 </button></a>
+<a href="index_nand_writer_4.85.html"><button class="btn btn-main"> NANDWrite_4.85 </button></a>
+<br>
+<h1 style="font-size:20px;">El PS3 debe estar entre los OFW y HFW 4.82, 4.84, 4.85</h1>
+<h1 style="font-size:20px;">Use minvercheck.pup para saber la version minima de su PS3...Y Verifique que su Consola Puede ser Downgradeable.</h1>
+<hr style="margin-top: 71px;">
 </div>
 <script>
 function load_HAN(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = 'han.html';
-        link.click();
+document.getElementById("han-section").style.display = "block";
+document.getElementById("main-section").style.display = "none";
 }
 function load_NOR(){
-
-  var link = document.createElement('a');
-        document.body.appendChild(link);
-        link.href = ("han_flasher.html");
-        link.click();
+document.getElementById("han-flasher-section").style.display = "block";
+document.getElementById("main-section").style.display = "none";
 }
 </script>
 </body>
